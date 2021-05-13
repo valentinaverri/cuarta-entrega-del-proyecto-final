@@ -1,0 +1,66 @@
+/* CONTACTO------------------------------------------------------------------------------------------------------ */
+
+.contacto {
+    margin: 20px;
+}
+
+
+.flexContacto {
+    margin:0px 20px;
+}
+
+.atencionAlCliente {
+    padding: 10px;
+    margin-bottom: 20px;
+    ul {
+        padding: 10px 0px;
+        list-style: none;
+        font-family: Lato;
+        font-size: 13px;
+        font-weight: normal;
+        letter-spacing: 0.5px;
+        color: #131313;
+    }
+    p {
+        font-weight: bold;
+        font-size: 13px;
+        padding-bottom: 10px;
+    }
+}
+
+
+
+.boton {
+    background-color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: #131313 solid 1px;
+}
+
+.mensaje {
+    padding: 10px;
+    padding-top: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    form {
+        display: block;
+        margin: 10px 0px;
+    }
+    textarea {
+        display: block;
+        margin-bottom: 10px;
+        background-color: #dddfd9;
+        border: 0px;
+        width: 100%;
+    }
+    input {
+        display: block;
+        margin-bottom: 10px;
+        background-color: #dddfd9;
+        border: 0px;
+    }
+    select {
+        margin-bottom: 10px;
+    }
+}

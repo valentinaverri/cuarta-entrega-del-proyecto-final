@@ -1,0 +1,60 @@
+/* HEADER----------------------------------------------------------------------------------------------------------- */
+
+
+header {
+    background-color: white;
+    width: 100%;
+}
+
+.logo img {
+    min-width: 150px;
+    max-width: 250px;
+    padding-right: 30px;
+}
+
+.burguer {
+    border: 1px solid #131313;
+}
+
+.mainNav {
+    background-color: white;
+    color: #131313;
+    padding: 10px;
+    border-bottom: solid 1px #131313;
+}
+
+.menu {
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    li {
+        font-size: 14px;
+        padding: 0px 5px;
+        color: #131313;
+    }
+    a:hover {
+        color: #917A64;
+    }
+}
+
+
+.submenu {
+    border: none;
+    background-color: white;
+    a:hover {
+        color: #917A64;
+        background-color: white;
+        }
+}
+
+.buscador {
+    font-size: 12px;
+    color: #6A7062;
+    border-color: #6A7062;
+}
+
+
+.infoDest {
+    text-align: center;
+    font-size: 12px;
+    padding: 3px;
+}

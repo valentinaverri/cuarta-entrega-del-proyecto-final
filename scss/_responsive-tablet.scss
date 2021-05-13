@@ -1,0 +1,149 @@
+/* RESPONSIVE TABLET ------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 600px) {
+    .productGrid {
+        height: auto;
+        margin: 20px 30px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, auto);
+        grid-template-areas: 
+        "p1 p2 p3"
+        "p4 p5 p5"
+        "p6 p5 p5"
+        "p7 p8 p9";
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+        justify-items: center;
+    }
+
+    .p5 {
+        align-self: center;
+    }
+
+    .productContainer {
+        h5 {
+            font-size: 10px;
+        }
+        h3 {
+            font-size: 13px;
+        }
+        h6 {
+            font-size: 11px;
+        }
+    } 
+
+    
+    .footer1 {
+        padding: 0px 10px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+    }
+
+    .socialMedia {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        h4 {
+            padding: 0px 10px;
+            text-align: center;
+            font-size: 16px;
+            font-weight: bold;
+        }
+    }
+
+
+    .footerMenu {
+        justify-content: center;
+        ul {
+            display: flex;
+            flex-flow: row wrap;
+        }
+        nav li {
+            padding: 5px 10px;
+            font-size: 14px;
+        }
+        img {
+            padding: 10px;
+        }
+    }
+
+    h5 {
+        font-size: 14px;
+    }
+    
+    h4 {
+        font-size: 16px;
+    }
+    
+    h3 {
+        font-size: 21px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+    
+    .infoDest {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .filter {
+        margin: 10px 30px;
+    }
+
+    
+    .mensaje textarea {
+        display: block;
+        margin-bottom: 10px;
+        background-color: #dddfd9;
+        border: 0px;
+        width: 70%;
+    }
+
+    .pregunta {
+        margin: 10px 20px ;
+    }
+
+    
+    .direcciones {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(2,40%);
+        grid-template-rows: repeat(2,auto);
+        justify-items: start;
+        justify-content: center;
+    }
+
+}
+
+@media only screen and (min-width: 780px) {
+    .direcciones {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(4,auto);
+        grid-template-rows: auto;
+        justify-items: start;
+        justify-content: center;
+    }
+
+    .direcciones div {
+        padding-right: 30px;
+    }
+
+    .productDest {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    
+    .productDest div {
+        width: 22%
+    }
+
+
+}

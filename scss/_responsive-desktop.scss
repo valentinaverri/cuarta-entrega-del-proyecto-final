@@ -1,0 +1,118 @@
+/* RESPONSIVE DESKTOP ---------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 1024px) {
+    .productGrid {
+        height: auto;
+        margin: 20px 50px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas: 
+        "p1 p1 p2 p3"
+        "p4 p5 p6 p6"
+        "p7 p7 p8 p9";
+        grid-row-gap: 10px;
+        justify-items: center;
+    }
+
+    .p2 {
+        align-self: center;
+    }
+
+    .p3 {
+        align-self: center;
+    }
+
+    .p4 {
+        align-self: center;
+    }
+
+    .p8 {
+        align-self: center;
+    }
+    
+    .p9 {
+        align-self: center;
+    }
+
+    .filter {
+        margin: 20px 50px;
+    }
+
+    .productContainer {
+        h5 {
+            font-size: 11px;
+        }
+        h3 {
+            font-size: 14px;
+        }
+        h6 {
+            font-size: 12px;
+        }
+    }
+    
+
+    .menu {
+        letter-spacing: 0.5px;
+        font-weight: bold;
+        display: flex;
+        flex-flow: row nowrap;
+        li {
+        font-size: 12px;
+        padding: 0px 5px;
+        display: inline-block;
+        }
+    }
+    
+    
+    .submenu {
+        position: absolute;
+        display: none;
+        z-index: 1;
+        padding: 5px;
+        padding-top: 10px;
+        background-color: white;
+        li {
+            padding-right: 25px;
+            display: block;
+        }
+    }
+
+    .menu ul li:hover .submenu {
+        display: block;
+    }
+
+    .mensaje textarea {
+        width: 50%;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .pregunta {
+        width: 70%;
+    }
+
+    .flexFotos {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    
+    .brandBoton img {
+        margin: 5px 5px;
+        width: 500px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .brandBoton img {
+        margin: 5px;
+        width: 590px;
+    }
+    
+
+}

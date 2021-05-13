@@ -1,0 +1,75 @@
+.banner {
+    background-size: cover;
+    background-position: center center;
+}
+
+.destacados {
+    padding: 10px;
+    margin: 20px 0px;
+    h2 {
+        padding-bottom: 10px;
+        font-size: 21px;
+        font-weight: bold;
+    }
+}
+
+.marca {
+    text-align: left;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #131313;
+    text-transform: uppercase;
+    font-size: 9px;
+}
+
+.price {
+    font-size: 11px;
+    font-style: italic;
+    color: #917A64;
+}
+
+
+.productDest {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    div {
+        width: 45%;
+        div {
+            width: 100%;
+            h3 {
+                padding-bottom: 0px;
+            }
+        }
+    }
+}
+
+
+.flexFotos {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.brandBoton img {
+    margin: 5px 0px;
+    width: 100%;
+}
+
+
+.brandsLogo {
+    background-color: #131313;
+    display: flex;
+    flex-flow: row wrap;
+    overflow: hidden;
+    padding: 10px;
+    justify-content: start;
+}
+.brandsLogo img {
+    height: 20px;
+    width: auto;
+    margin: 10px;
+
+}
